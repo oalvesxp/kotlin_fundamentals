@@ -1,6 +1,6 @@
 package firstSteps
 
-fun dataTypes () {
+fun main () {
     // numbers
     val byte: Byte = -128
     val short: Short = 32_767
@@ -19,6 +19,4 @@ fun dataTypes () {
     """.trimIndent()
 
     val boolean: Boolean = true // false
-
-    print(Math.sqrt(16.0))
 }
